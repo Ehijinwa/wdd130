@@ -1,0 +1,24 @@
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+    
+}
+nav a,
+#hero-msg h1, #hero-msg h4,
+.button-box,
+main section {text-align: center;
+
+}
+#background {
+    height: 725px;
+}
+.icon {
+    width: 80px;
+}
+nav a,.book, .join,
+footer a {
+    text-align: center;
+    /* color: #fcfbfb; */
+    text-decoration: none;
+}    
+footer p a:hover {text-decoration: underline;}
