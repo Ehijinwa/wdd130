@@ -7,7 +7,10 @@ counts = 0
 
 while word  != guess:
     guess = input("What is your guess?")
-    counts = counts + 1
+    if len(word) != len(guess):
+        print("Sorry, the guess must have the same number of letters as the secret word")
+    else :
+        counts = counts + 1
 
 print(f"It took you {counts} guesses")
 print("Congratulations! You guessed it!")
