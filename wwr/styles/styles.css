@@ -165,4 +165,8 @@ h2 {
     .home-grid {display: grid;
     grid-template-columns: repeat(10,1fr);}
 
+    .river-section {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
                   
